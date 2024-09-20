@@ -1,11 +1,30 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/test/loot_tables/blocks/test.json",
+          "src/main/resources/assets/test/models/item/test.json",
+          "src/main/resources/assets/test/blockstates/test.json",
+          "src/main/resources/assets/test/models/block/test.json",
+          "src/main/java/net/mcreator/test/block/TestBlock.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.test.test": "Test"
+    }
   },
   "foldersRoot": {
     "name": "~",

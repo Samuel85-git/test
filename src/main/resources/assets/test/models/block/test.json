@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "test:block/texture_test",
+    "up": "test:block/texture_test",
+    "north": "test:block/texture_test",
+    "east": "test:block/texture_test",
+    "south": "test:block/texture_test",
+    "west": "test:block/texture_test",
+    "particle": "test:block/texture_test"
+  },
+  "render_type": "solid"
+}
